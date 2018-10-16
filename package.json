@@ -1,0 +1,30 @@
+{
+  "name": "l-utils",
+  "version": "1.0.0",
+  "description": "utils for myself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhulinwei/l-utils.git"
+  },
+  "keywords": [
+    "utils",
+    "Level.Z",
+    "zhulinwei"
+  ],
+  "author": "Level.Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhulinwei/l-utils/issues"
+  },
+  "homepage": "https://github.com/zhulinwei/l-utils#readme",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.8",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
