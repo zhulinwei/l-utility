@@ -48,7 +48,7 @@ class Utils {
     });
   }
 
-  asdf(source) {
+  loadFile(source) {
     const type = source.substr(source.lastIndexOf('.') + 1, source.length);
     return { type, result: fs.createReadStream(source) };
   }
